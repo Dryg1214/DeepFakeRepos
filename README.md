@@ -10,12 +10,13 @@ https://github.com/ondyari/FaceForensics
 В качестве реальных изображений использовались изображения 
 [Celebrity-Face-Recognition-Dataset](https://github.com/prateekmehta59/Celebrity-Face-Recognition-Dataset)
 
-**2. Берем 2-3 готовых (других, не из списка FaceForensics++) решения по замене/изменению лиц:**
+**2. Берем 2-3 готовых (других, не из списка FaceForensics++) решения по замене/изменению лиц:**  
 Для замены лиц были выбраны сети **GHOST**, **ROOP**
-- Сеть GHOST располагается в AllModels/ModelGenerate/GHOST
-- Сеть GHOST располагается в AllModels/ModelGenerate/roop
+- Сеть GHOST располагается в (AllModels/ModelGenerate/GHOST)
+- Сеть GHOST располагается в (AllModels/ModelGenerate/roop)
+
 Для преобразования использовалась сеть **Encoder4editing**
-- Сеть Encoder4editing располагается в AllModels/ModelGenerate/encoder4editing
+- Сеть Encoder4editing располагается в (AllModels/ModelGenerate/encoder4editing)
      
 **3. Дополняем FaceForensics++ новыми генерациями, причем БД разбиваем на 2 блока - замена 
    лиц и изменение лица (в исходной версии БД это также есть)**
