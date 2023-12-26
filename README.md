@@ -1,6 +1,7 @@
 **ЭТАПЫ ВЫПОЛНЕНИЯ НАУЧНОЙ РАБОТЫ**  
 
-**1. Скачиваем БД FaceForensics++**
+**1. Скачиваем БД FaceForensics++**  
+  
 Скачиваем фейковые изображения с официального репозитория FF 
 https://github.com/ondyari/FaceForensics
 
@@ -20,11 +21,14 @@ https://github.com/ondyari/FaceForensics
 Для преобразования использовалась сеть **Encoder4editing**
 - Сеть Encoder4editing располагается в [AllModels/ModelGenerate/encoder4editing](AllModels/ModelGenerate/encoder4editing)
      
-**3. Дополняем FaceForensics++ новыми генерациями, причем БД разбиваем на 2 блока - замена лиц и изменение лица**
-     Для генерации данных с помощью модели ROOP был написан скрипт для автоматической генерации: [scriptROOP.py](GenerateDeepFakeRoopScripts/scriptROOP.py)
-В дочерней папке скрипта располагается текстовый файл, в примером запуска этого файла.
+**3. Дополняем FaceForensics++ новыми генерациями, причем БД разбиваем на 2 блока - замена лиц и изменение лица**  
 
-     Для генерации данных с помощью модели GHOST используется Jupyter Notebook, изменный под массовую генерацию изображений:
+Для генерации данных с помощью модели ROOP был написан скрипт для автоматической генерации:  
+[scriptROOP.py](GenerateDeepFakeRoopScripts/scriptROOP.py)
+
+В дочерней папке скрипта располагается текстовый файл, в примером запуска этого файла. 
+ 
+Для генерации данных с помощью модели GHOST используется Jupyter Notebook, изменный под массовую генерацию изображений:
 [GHOST Jupyter Notebook](AllModels/ModelGenerate/GHOST/GHOST_upd.ipynb)  
 
 Для генерации данных с помощью моделей ROOP и GHOST были необходимы две папки. Одна нужна для источника контекта, а другая для его замены.  
