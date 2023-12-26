@@ -1,0 +1,1 @@
+ & "C:/Users/Dungeon Master/.conda/envs/generate_deepfake/python.exe" f:/DeepFake/scriptROOP.py -i 'data\source' -d 'data\destination' -o 'data\results'
