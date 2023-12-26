@@ -1,0 +1,5 @@
+/STGAN
+gfpgan/weights/detection_Resnet50_Final.pth
+gfpgan/weights/parsing_parsenet.pth
+roop/gfpgan/weights/detection_Resnet50_Final.pth
+roop/gfpgan/weights/parsing_parsenet.pth
