@@ -1,0 +1,3 @@
+run.py -s "xit.jpg" -t "dis.jpg" -o "abc.jpg" --keep-frames --keep-fps --temp-frame-quality 1 --output-video-quality 1 --execution-provider cuda --frame-processor face_swapper face_enhancer
+
+ & "C:/Users/Dungeon Master/.conda/envs/generate_deepfake/python.exe" f:/DeepFake/roop/run.py -s "iam.jpg" -t "data\1.jpg" -o "1o.jpg" --keep-frames --keep-fps --temp-frame-quality 1 --output-video-quality 1 --execution-provider cuda --frame-processor face_swapper face_enhancer
