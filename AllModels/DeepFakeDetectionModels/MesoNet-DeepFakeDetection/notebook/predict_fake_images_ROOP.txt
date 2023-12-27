@@ -1,0 +1,43 @@
+fake\100_processed_dest16.jpg.jpg 0.9999962
+fake\105_processed_dest165.jpg.jpg 0.99916196
+fake\11_processed_dest185.jpg.jpg 0.99592894
+fake\161_processed_dest187.jpg.jpg 0.83469045
+fake\162_processed_dest191.jpg.jpg 0.9979728
+fake\166_processed_dest2.jpg.jpg 0.9996799
+fake\18 (2)_processed_dest20.jpg.jpg 0.9990387
+fake\18_processed_dest203.jpg.jpg 0.999977
+fake\191_processed_dest209.jpg.jpg 0.9985838
+fake\194_processed_dest21.jpg.jpg 0.9979247
+fake\1_processed_dest1.jpg.jpg 0.9995084
+fake\243_processed_dest23.jpg.jpg 0.99804854
+fake\249_processed_dest230.jpg.jpg 1.0
+fake\24_processed_dest22.jpg.jpg 1.0
+fake\25 (2)_processed_dest24 (2).jpg.jpg 0.7569807
+fake\25_processed_dest24.jpg.jpg 0.96813935
+fake\261_processed_dest28.jpg.jpg 0.99582773
+fake\27_processed_dest337.jpg.jpg 0.99944884
+fake\30_processed_dest34.jpg.jpg 1.0
+fake\399_processed_dest40.jpg.jpg 0.6690671
+fake\405_processed_dest401.jpg.jpg 1.0
+fake\434_processed_dest41.jpg.jpg 0.9999552
+fake\438_processed_dest448.jpg.jpg 1.0
+fake\449_processed_dest451.jpg.jpg 0.9916061
+fake\479_processed_dest457 (2).jpg.jpg 0.9056732
+fake\482_processed_dest457.jpg.jpg 0.99982363
+fake\483_processed_dest460.jpg.jpg 0.99338245
+fake\486_processed_dest473.jpg.jpg 0.99881184
+fake\492_processed_dest494.jpg.jpg 0.9994771
+fake\49_processed_dest490.jpg.jpg 0.987895
+fake\504_processed_dest499.jpg.jpg 0.9999982
+fake\513_processed_dest524.jpg.jpg 0.751075
+fake\556_processed_dest525.jpg.jpg 1.0
+fake\577_processed_dest541.jpg.jpg 0.99348176
+fake\590_processed_dest581.jpg.jpg 0.99994123
+fake\613_processed_dest591.jpg.jpg 0.24865921
+fake\623_processed_dest640.jpg.jpg 0.9995347
+fake\706_processed_dest680.jpg.jpg 0.9999999
+fake\719_processed_dest696.jpg.jpg 0.9999988
+fake\73_processed_dest7.jpg.jpg 0.9999995
+fake\796_processed_dest747.jpg.jpg 0.9999994
+fake\87_processed_dest751.jpg.jpg 0.9819027
+fake\91_processed_dest761.jpg.jpg 0.20219995
