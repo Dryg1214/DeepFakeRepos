@@ -1,0 +1,70 @@
+real\1.jpg 1.0
+real\100.jpg 0.7928252
+real\102.jpg 0.99999964
+real\105.jpg 0.9999987
+real\107.jpg 0.99813855
+real\11.jpg 0.94132835
+real\131.jpg 0.99939597
+real\161.jpg 0.99999964
+real\162.jpg 0.93628585
+real\166.jpg 0.9970259
+real\18 (2).jpg 0.9047669
+real\18.jpg 1.0
+real\183.jpg 0.9992324
+real\186 (2).jpg 0.9999826
+real\186.jpg 0.46814552
+real\191.jpg 0.99999976
+real\194 (2).jpg 0.99950683
+real\194.jpg 0.9990901
+real\223.jpg 1.0
+real\24.jpg 0.99999964
+real\243.jpg 0.96175855
+real\249.jpg 0.94892234
+real\25 (2).jpg 0.9999999
+real\25.jpg 0.91827327
+real\261.jpg 0.9999939
+real\264.jpg 0.98900944
+real\27.jpg 0.790069
+real\276.jpg 0.99999917
+real\285.jpg 0.9976411
+real\30.jpg 0.99999976
+real\34.jpg 0.9998919
+real\371.jpg 0.9966601
+real\399.jpg 0.9963522
+real\405.jpg 1.0
+real\42.jpg 1.0
+real\433.jpg 1.0
+real\434.jpg 0.9999974
+real\438.jpg 0.99998105
+real\449.jpg 1.0
+real\458.jpg 0.99999976
+real\460.jpg 0.7089494
+real\479.jpg 1.0
+real\482.jpg 1.0
+real\486.jpg 0.9942992
+real\49.jpg 0.8971753
+real\492.jpg 0.99981254
+real\499.jpg 0.99999976
+real\504 (2).jpg 0.9831803
+real\504.jpg 0.46707052
+real\513.jpg 0.9999993
+real\556.jpg 0.751734
+real\577.jpg 1.0
+real\590.jpg 0.99999726
+real\596.jpg 0.9998055
+real\6.jpg 0.9999759
+real\613.jpg 1.0
+real\640.jpg 0.9999473
+real\648.jpg 0.9999988
+real\67.jpg 0.9999995
+real\706.jpg 0.9992761
+real\71.jpg 0.9999993
+real\719.jpg 0.9999999
+real\73 (2).jpg 0.82111424
+real\73.jpg 0.9999956
+real\788.jpg 0.7556236
+real\796.jpg 0.9999863
+real\85.jpg 0.99994993
+real\87.jpg 0.99958605
+real\9.jpg 1.0
+real\91.jpg 0.99721885
