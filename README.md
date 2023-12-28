@@ -40,25 +40,41 @@ https://github.com/ondyari/FaceForensics
 
 **4. Находим готовые решения (модель+веса) по детекции подделок из числа, указаных в таблице 2**  
 
-Для детектирования были выбраны три модели: **Xception, EfficientNetAutoAttB4, MesoNet.**
-Для предсказаний модели использовался Jupyter Notebook [Xception](AllModels/DeepFakeDetectionModels/XceptionNet/XceptionNet.ipynb)  
+Для детектирования были выбраны три модели: **Xception, EfficientNetAutoAttB4, MesoNet.**  
 
-Данные для обучающей выборки и код для обучения модели **Xception** представлен в Jupyter Notebook [XceptionTraining](AllModels/DeepFakeDetectionModels/XceptionNet/Team_Dark_HAIYA_XceptionNet_Deepfake_Detector_Training.ipynb) 
+Для предсказаний модели **XceptionNet** использовался Jupyter Notebook [XceptionNet](AllModels/DeepFakeDetectionModels/XceptionNet/XceptionNet.ipynb)  
 
-Исследование проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Базовая тестирующая выборка](AllModels/DeepFakeDetectionModels/XceptionNet/testing_images)
+Данные для обучающей выборки и код для обучения модели **XceptionNet** представлен в Jupyter Notebook [XceptionTraining](AllModels/DeepFakeDetectionModels/XceptionNet/Team_Dark_HAIYA_XceptionNet_Deepfake_Detector_Training.ipynb) 
 
-Код каждой модели был обновлен для удобного сбора статистики предсказания для отдельных групп изображений.
+Исследование для **XceptionNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Базовой тестовой выборкой XceptionNet](AllModels/DeepFakeDetectionModels/XceptionNet/testing_images)  
+
+
+Для предсказаний модели **MesoNet** использовался Jupyter Notebook [MesoNet](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook/Meso_4.ipynb). 
+Также в коде данного ноутбука есть методы для обучения модели. Датасет для обучения и тестирования модели [MesoNetData](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data). Разрешение изображений в датасете варьируется от 98х98 до 614х614.
+
+Исследование для **MesoNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Тестовой выборки Meso](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data/train). Все базовые изображения тестовой выборки MesoNet имеют разрешение 128х128. 
+
+
+
+
+
+
+
+
+**Код каждой модели был обновлен для удобного сбора вероятности классификаций для отдельных групп изображений.**
+
 
 **5. Результаты детектирования.**  
 Для каждого типа данных, описанных в пункте 4 создан txt файл с несколькими параметрами.  
 
-В названии файла будет указан тип данных (fake or real) и название генерационной модели.  
+В названии файла будет указан тип данных (fake or real), название генерационной модели, а также используемый датасет.  
 
 Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet) 
  
 Предсказания для модели MesoNet находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
 
 Предсказания для модели EfficientNetB4 находятся в [EfficientNetB4Predict](AllModels/DeepFakeDetectionModels/EfficientNetB4 + EfficientNetB4ST + B4Att + B4AttST)
+
 
 **Общая структура проекта**  
 
