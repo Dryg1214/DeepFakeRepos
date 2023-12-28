@@ -1,0 +1,69 @@
+Class 0 - REAL, Class 1 - FAKE
+/content/REAL/131.jpg label = [0.14045379]  class = 0
+/content/REAL/11.jpg label = [0.04289784]  class = 0
+/content/REAL/186 (2).jpg label = [0.05658719]  class = 0
+/content/REAL/405.jpg label = [0.00582444]  class = 0
+/content/REAL/161.jpg label = [0.00705879]  class = 0
+/content/REAL/399.jpg label = [0.01835722]  class = 0
+/content/REAL/71.jpg label = [0.02857004]  class = 0
+/content/REAL/596.jpg label = [0.00813394]  class = 0
+/content/REAL/18 (2).jpg label = [0.15752882]  class = 0
+/content/REAL/243.jpg label = [0.8193842]  class = 1
+/content/REAL/460.jpg label = [0.03566108]  class = 0
+/content/REAL/87.jpg label = [0.0714205]  class = 0
+/content/REAL/504.jpg label = [0.14266658]  class = 0
+/content/REAL/719.jpg label = [0.00672482]  class = 0
+/content/REAL/73.jpg label = [0.02042221]  class = 0
+/content/REAL/285.jpg label = [0.02067865]  class = 0
+/content/REAL/261.jpg label = [0.01569849]  class = 0
+/content/REAL/102.jpg label = [0.0081216]  class = 0
+/content/REAL/479.jpg label = [0.01135805]  class = 0
+/content/REAL/223.jpg label = [0.23408194]  class = 0
+/content/REAL/186.jpg label = [0.01302364]  class = 0
+/content/REAL/107.jpg label = [0.03767728]  class = 0
+/content/REAL/191.jpg label = [0.10767721]  class = 0
+/content/REAL/264.jpg label = [0.08635037]  class = 0
+/content/REAL/788.jpg label = [0.18647398]  class = 0
+/content/REAL/556.jpg label = [0.01580236]  class = 0
+/content/REAL/482.jpg label = [0.09628183]  class = 0
+/content/REAL/25 (2).jpg label = [0.01193125]  class = 0
+/content/REAL/590.jpg label = [0.01321125]  class = 0
+/content/REAL/613.jpg label = [0.01419438]  class = 0
+/content/REAL/49.jpg label = [0.00724522]  class = 0
+/content/REAL/183.jpg label = [0.06597957]  class = 0
+/content/REAL/6.jpg label = [0.00250584]  class = 0
+/content/REAL/492.jpg label = [0.00987746]  class = 0
+/content/REAL/276.jpg label = [0.08155706]  class = 0
+/content/REAL/640.jpg label = [0.04122251]  class = 0
+/content/REAL/30.jpg label = [0.01374496]  class = 0
+/content/REAL/433.jpg label = [0.03310155]  class = 0
+/content/REAL/1.jpg label = [0.02016386]  class = 0
+/content/REAL/73 (2).jpg label = [0.15073624]  class = 0
+/content/REAL/434.jpg label = [0.20639582]  class = 0
+/content/REAL/796.jpg label = [0.00407849]  class = 0
+/content/REAL/371.jpg label = [0.09037777]  class = 0
+/content/REAL/249.jpg label = [0.01781181]  class = 0
+/content/REAL/100.jpg label = [0.11414891]  class = 0
+/content/REAL/24.jpg label = [0.03764021]  class = 0
+/content/REAL/42.jpg label = [0.00540008]  class = 0
+/content/REAL/499.jpg label = [0.900297]  class = 1
+/content/REAL/449.jpg label = [0.00624043]  class = 0
+/content/REAL/648.jpg label = [0.00769019]  class = 0
+/content/REAL/18.jpg label = [0.00494755]  class = 0
+/content/REAL/34.jpg label = [0.04645187]  class = 0
+/content/REAL/9.jpg label = [0.0444328]  class = 0
+/content/REAL/105.jpg label = [0.07502989]  class = 0
+/content/REAL/486.jpg label = [0.02808627]  class = 0
+/content/REAL/166.jpg label = [0.06446107]  class = 0
+/content/REAL/67.jpg label = [0.05258198]  class = 0
+/content/REAL/513.jpg label = [0.01669646]  class = 0
+/content/REAL/27.jpg label = [0.02196255]  class = 0
+/content/REAL/438.jpg label = [0.09301227]  class = 0
+/content/REAL/504 (2).jpg label = [0.00963586]  class = 0
+/content/REAL/25.jpg label = [0.02076532]  class = 0
+/content/REAL/162.jpg label = [0.02555277]  class = 0
+/content/REAL/91.jpg label = [0.04542404]  class = 0
+/content/REAL/458.jpg label = [0.01687336]  class = 0
+/content/REAL/194 (2).jpg label = [0.04408722]  class = 0
+/content/REAL/577.jpg label = [0.07703319]  class = 0
+/content/REAL/706.jpg label = [0.06345394]  class = 0

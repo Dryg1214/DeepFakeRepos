@@ -1,0 +1,44 @@
+Class 0 - REAL, Class 1 - FAKE
+/content/ROOP/623_processed_dest640.jpg.jpg label = [0.01353317]  class = 0
+/content/ROOP/249_processed_dest230.jpg.jpg label = [0.27897486]  class = 0
+/content/ROOP/162_processed_dest191.jpg.jpg label = [0.00989146]  class = 0
+/content/ROOP/166_processed_dest2.jpg.jpg label = [0.00762266]  class = 0
+/content/ROOP/706_processed_dest680.jpg.jpg label = [0.0334797]  class = 0
+/content/ROOP/492_processed_dest494.jpg.jpg label = [0.02098703]  class = 0
+/content/ROOP/194_processed_dest21.jpg.jpg label = [0.04116908]  class = 0
+/content/ROOP/486_processed_dest473.jpg.jpg label = [0.2027793]  class = 0
+/content/ROOP/405_processed_dest401.jpg.jpg label = [0.10512666]  class = 0
+/content/ROOP/504_processed_dest499.jpg.jpg label = [0.01406482]  class = 0
+/content/ROOP/11_processed_dest185.jpg.jpg label = [0.01690672]  class = 0
+/content/ROOP/613_processed_dest591.jpg.jpg label = [0.545949]  class = 1
+/content/ROOP/513_processed_dest524.jpg.jpg label = [0.07519466]  class = 0
+/content/ROOP/91_processed_dest761.jpg.jpg label = [0.24060376]  class = 0
+/content/ROOP/161_processed_dest187.jpg.jpg label = [0.8803271]  class = 1
+/content/ROOP/18 (2)_processed_dest20.jpg.jpg label = [0.00375186]  class = 0
+/content/ROOP/796_processed_dest747.jpg.jpg label = [0.0116631]  class = 0
+/content/ROOP/438_processed_dest448.jpg.jpg label = [0.49022955]  class = 0
+/content/ROOP/399_processed_dest40.jpg.jpg label = [0.44553846]  class = 0
+/content/ROOP/556_processed_dest525.jpg.jpg label = [0.01106813]  class = 0
+/content/ROOP/434_processed_dest41.jpg.jpg label = [0.16821982]  class = 0
+/content/ROOP/449_processed_dest451.jpg.jpg label = [0.02232568]  class = 0
+/content/ROOP/100_processed_dest16.jpg.jpg label = [0.24403092]  class = 0
+/content/ROOP/73_processed_dest7.jpg.jpg label = [0.07532058]  class = 0
+/content/ROOP/24_processed_dest22.jpg.jpg label = [0.2678435]  class = 0
+/content/ROOP/25 (2)_processed_dest24 (2).jpg.jpg label = [0.14754385]  class = 0
+/content/ROOP/482_processed_dest457.jpg.jpg label = [0.04763808]  class = 0
+/content/ROOP/1_processed_dest1.jpg.jpg label = [0.00510837]  class = 0
+/content/ROOP/18_processed_dest203.jpg.jpg label = [0.04230271]  class = 0
+/content/ROOP/191_processed_dest209.jpg.jpg label = [0.25755128]  class = 0
+/content/ROOP/261_processed_dest28.jpg.jpg label = [0.03522105]  class = 0
+/content/ROOP/479_processed_dest457 (2).jpg.jpg label = [0.02576581]  class = 0
+/content/ROOP/87_processed_dest751.jpg.jpg label = [0.01627663]  class = 0
+/content/ROOP/719_processed_dest696.jpg.jpg label = [0.41957164]  class = 0
+/content/ROOP/30_processed_dest34.jpg.jpg label = [0.22383712]  class = 0
+/content/ROOP/27_processed_dest337.jpg.jpg label = [0.03550012]  class = 0
+/content/ROOP/590_processed_dest581.jpg.jpg label = [0.0289677]  class = 0
+/content/ROOP/105_processed_dest165.jpg.jpg label = [0.02720367]  class = 0
+/content/ROOP/577_processed_dest541.jpg.jpg label = [0.04588662]  class = 0
+/content/ROOP/25_processed_dest24.jpg.jpg label = [0.11070157]  class = 0
+/content/ROOP/49_processed_dest490.jpg.jpg label = [0.15189762]  class = 0
+/content/ROOP/243_processed_dest23.jpg.jpg label = [0.02013306]  class = 0
+/content/ROOP/483_processed_dest460.jpg.jpg label = [0.20364253]  class = 0
