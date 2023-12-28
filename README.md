@@ -46,15 +46,15 @@ https://github.com/ondyari/FaceForensics
 
 Данные для обучающей выборки и код для обучения модели **XceptionNet** представлен в Jupyter Notebook [XceptionTraining](AllModels/DeepFakeDetectionModels/XceptionNet/Team_Dark_HAIYA_XceptionNet_Deepfake_Detector_Training.ipynb) 
 
-Исследование для **XceptionNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Базовой тестовой выборкой XceptionNet](AllModels/DeepFakeDetectionModels/XceptionNet/testing_images)  
+Исследование для **XceptionNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [FaceForensics](Datasets/FaceForensics/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Базовой тестовой выборкой XceptionNet](AllModels/DeepFakeDetectionModels/XceptionNet/testing_images)  
 
 
 Для предсказаний модели **MesoNet** использовался Jupyter Notebook [MesoNet](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook/Meso_4.ipynb). 
 Также в коде данного ноутбука есть методы для обучения модели. Датасет для обучения и тестирования модели [MesoNetData](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data). Разрешение изображений в датасете варьируется от 98х98 до 614х614.
 
-Исследование для **MesoNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Тестовой выборки Meso](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data/train). Все базовые изображения тестовой выборки MesoNet имеют разрешение 128х128.  
+Исследование для **MesoNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [FaceForensics](Datasets/FaceForensics/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Тестовой выборки Meso](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data/train). Все базовые изображения тестовой выборки MesoNet имеют разрешение 128х128.  
 
-Для предсказаний модели **EfficientNetB4** использовался Jupyter Notebook [EfficientNetB4](AllModels/DeepFakeDetectionModels/EfficientNetB4 + EfficientNetB4ST + B4Att + B4AttST/EfficientNetAutoAttB4_myUpdate.ipynb). Исследование проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake)
+Для предсказаний модели **EfficientNetB4** использовался Jupyter Notebook [EfficientNetB4](AllModels/DeepFakeDetectionModels/EfficientNetB4 + EfficientNetB4ST + B4Att + B4AttST/EfficientNetAutoAttB4_myUpdate.ipynb). Исследование проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [FaceForensics](Datasets/FaceForensics/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake)
 
 **Код каждой модели был обновлен для удобного сбора вероятности классификации к классу real/fake для отдельных групп изображений.**
 
@@ -70,6 +70,17 @@ https://github.com/ondyari/FaceForensics
 
 Предсказания для модели EfficientNetB4 находятся в [EfficientNetB4Predict](https://github.com/Dryg1214/DeepFakeRepos/tree/main/AllModels/DeepFakeDetectionModels/EfficientNetB4%20%2B%20EfficientNetB4ST%20%2B%20B4Att%20%2B%20B4AttST)
 
+Таблица результатов моделей:
+
+| Модель          | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute |
+|-----------------|---------------|------|-------|-----------|-----------------|------------------|
+| XceptionNet Precision|               |      |       |           |                 |                  |
+| XceptionNet Recall   |               |      |       |           |                 |                  |
+| MesoNet Precision|               |      |       |           |                 |                  |
+| MesoNet Recall   |               |      |       |           |                 |                  |
+| EfficientNetB4 Precision|               |      |       |           |                 |                  |
+| EfficientNetB4 Recall   |               |      |       |           |                 |                  |
+
 
 **Общая структура проекта**  
 
@@ -78,15 +89,16 @@ https://github.com/ondyari/FaceForensics
 [GenerateDeepFakeRoopScripts](GenerateDeepFakeRoopScripts) - Файл и скрипт для запуска автоматической генерации модели ROOP.
 
 [Datasets](Datasets) - Наборы данных, используемые в проекте. 
+- [Destination](Datasets/destination) - Изображения для полной смены лиц, являющиеся целевым объектом замены.
+- [Source](Datasets/source) - Изображения для полной смены лиц, являющиеся источником контекста (лица).
 - [RoopData](Datasets/RoopData) - Сгенерированные изображения модели ROOP. Внутри папки есть подпапки источника и целевого объекта изображения.
 - [GHOSTdata](Datasets/GHOSTdata) - Сгенерированные изображения модели GHOST. Источники и целевые объекты использовались как у ROOP.
 - [Encoder4EditingData](Datasets/Encoder4EditingData) - Сгенерированные модифицированные изображения модели Encoder4Editing.
 - [CelebaHQReal](Datasets/CelebaHQReal) - Демонстрационный вариант части реальных изображений.
-- [FaceForensicsFakeImage](Datasets/FaceForensics/fake) - Фейковые изображения бенчмарка FF
+- [FaceForensicsFakeImage](Datasets/FaceForensics/fake) - Фейковые изображения бенчмарка FF.
 
 [AllModels](AllModels) - Все модели, используемые в проекте, содержит в себе две подпапки для Генеративных и Детектирующих моделей
-
-
-
+- [ModelGenerate](AllModels/ModelGenerate) - Папка со всеми генеративными моделями
+- [DeepFakeDetectionModels](AllModels/DeepFakeDetectionModels)
 
 
