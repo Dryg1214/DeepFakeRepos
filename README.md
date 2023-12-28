@@ -40,7 +40,7 @@ https://github.com/ondyari/FaceForensics
 
 **4. Находим готовые решения (модель+веса) по детекции подделок из числа, указаных в таблице 2**  
 
-Для детектирования были выбраны три модели: **Xception, EfficientNetAutoAttB4, MesoNet.**  
+Для детектирования были выбраны три модели: **Xception, EfficientNetB4, MesoNet.**  
 
 Для предсказаний модели **XceptionNet** использовался Jupyter Notebook [XceptionNet](AllModels/DeepFakeDetectionModels/XceptionNet/XceptionNet.ipynb)  
 
@@ -52,16 +52,11 @@ https://github.com/ondyari/FaceForensics
 Для предсказаний модели **MesoNet** использовался Jupyter Notebook [MesoNet](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook/Meso_4.ipynb). 
 Также в коде данного ноутбука есть методы для обучения модели. Датасет для обучения и тестирования модели [MesoNetData](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data). Разрешение изображений в датасете варьируется от 98х98 до 614х614.
 
-Исследование для **MesoNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Тестовой выборки Meso](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data/train). Все базовые изображения тестовой выборки MesoNet имеют разрешение 128х128. 
+Исследование для **MesoNet** проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Тестовой выборки Meso](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/data/train). Все базовые изображения тестовой выборки MesoNet имеют разрешение 128х128.  
 
+Для предсказаний модели **EfficientNetB4** использовался Jupyter Notebook [EfficientNetB4](AllModels/DeepFakeDetectionModels/EfficientNetB4 + EfficientNetB4ST + B4Att + B4AttST/EfficientNetAutoAttB4_myUpdate.ipynb). Исследование проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake)
 
-
-
-
-
-
-
-**Код каждой модели был обновлен для удобного сбора вероятности классификаций для отдельных групп изображений.**
+**Код каждой модели был обновлен для удобного сбора вероятности классификации к классу real/fake для отдельных групп изображений.**
 
 
 **5. Результаты детектирования.**  
