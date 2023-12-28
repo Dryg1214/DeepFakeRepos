@@ -41,12 +41,24 @@ https://github.com/ondyari/FaceForensics
 **4. Находим готовые решения (модель+веса) по детекции подделок из числа, указаных в таблице 2**  
 
 Для детектирования были выбраны три модели: **Xception, EfficientNetAutoAttB4, MesoNet.**
+Для предсказаний модели использовался Jupyter Notebook [Xception](AllModels/DeepFakeDetectionModels/XceptionNet/XceptionNet.ipynb)  
 
-   
-**5. Тренеруем готовые сети, проверяем результат. Совпал ли с указанными в статьях**
+Данные для обучающей выборки и код для обучения модели **Xception** представлен в Jupyter Notebook [XceptionTraining](AllModels/DeepFakeDetectionModels/XceptionNet/Team_Dark_HAIYA_XceptionNet_Deepfake_Detector_Training.ipynb) 
 
+Исследование проводилось для данных: [ROOP](Datasets/RoopData/fake), [GHOST](Datasets/GHOSTdata/fake), [RealImage](Datasets/CelebaHQReal/Data/real), [SmileAttribute](Datasets/Encoder4EditingData/Smile/fake), [OldAgeAttribute](Datasets/Encoder4EditingData/OldAge/fake) и [Базовая тестирующая выборка](AllModels/DeepFakeDetectionModels/XceptionNet/testing_images)
 
+Код каждой модели был обновлен для удобного сбора статистики предсказания для отдельных групп изображений.
 
+**5. Результаты детектирования.**  
+Для каждого типа данных, описанных в пункте 4 создан txt файл с несколькими параметрами.  
+
+В названии файла будет указан тип данных (fake or real) и название генерационной модели.  
+
+Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet) 
+ 
+Предсказания для модели MesoNet находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
+
+Предсказания для модели EfficientNetB4 находятся в [EfficientNetB4Predict](AllModels/DeepFakeDetectionModels/EfficientNetB4 + EfficientNetB4ST + B4Att + B4AttST)
 
 **Общая структура проекта**  
 
