@@ -31,7 +31,7 @@ https://github.com/ondyari/FaceForensics
 Для генерации данных с помощью модели GHOST используется Jupyter Notebook, изменный под массовую генерацию изображений:  
 [GHOST Jupyter Notebook](AllModels/ModelGenerate/GHOST/GHOST_upd.ipynb)  
 
-Для генерации данных с помощью моделей ROOP и GHOST были необходимы две папки. Одна нужна для источника контекста, а другая для его замены. Разрешение выходного изображение равно разрешению входного изображения, меняется лишь "лицо" объекта.
+Для генерации данных с помощью моделей ROOP и GHOST были необходимы две папки. Одна нужна для источника контекста [Source](Datasets/source), а другая для его замены [Destination](Datasets/destination). Разрешение выходного изображения равно разрешению входного изображения, меняется лишь "лицо" объекта.
 
 Для генерации данных с помощью модели Encoder4Editing используется Jupyter Notebook, изменный под массовую генерацию изображений:  
 [Encoder4Editing Jupyter Notebook](https://github.com/Dryg1214/DeepFakeRepos/blob/main/AllModels/ModelGenerate/encoder4editing/E4emyUpdate.ipynb)  
