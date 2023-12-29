@@ -76,8 +76,8 @@ https://github.com/ondyari/FaceForensics
 |-----------------------|---------------|------|-------|-------------|---------|-----------------|-----------|-----------------|------------------|----------|----------|
 | XceptionNet Precision  |               |      |       |             |         |                 |           |                 |                  |          |          |
 | XceptionNet Recall     |               |      |       |             |         |                 |           |                 |                  |          |          |
-| MesoNet Precision      |               |      |       |             |         |                 |           |                 |                  |     0.96    |     0.96    |
-| MesoNet Recall         |               |      |       |             |         |                 |           |                 |                  |     0.97     |     0.94    |
+| MesoNet Precision      |               |      |       |             |         |                 |           |                 |                  |   0.96   |   0.96   |
+| MesoNet Recall         |               |      |       |             |         |                 |           |                 |                  |   0.97   |   0.94   |
 | EfficientNetB4 Precision|               |      |       |             |         |                 |           |                 |                  |          |   -      |
 | EfficientNetB4 Recall   |               |      |       |             |         |                 |           |                 |                  |          |   -      |
 
