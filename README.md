@@ -74,11 +74,11 @@ https://github.com/ondyari/FaceForensics
 
 | Модель                | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
 |-----------------------|---------------|------|-------|-----------|-----------------|------------------|----------|----------|
-| XceptionNet Precision  |               |      |       |           |                 |                  |          |          |
+| XceptionNet Precision  |       0       |  0  | 0.024 |      1    |        0        |         0         |  0.995   |  0.925   |
 | XceptionNet Recall     |               |      |       |           |                 |                  |          |          |
 | MesoNet Precision      |      0.04     | 0.05 |  0.07 |    0.96   |         0       |         0        |   0.96   |   0.96   |
 | MesoNet Recall         |       1       |   1  |   1   |    0.97   |         0       |         0        |   0.97   |   0.94   |
-| EfficientNetB4 Precision|               |      |       |           |                 |                  |     -    |   -      |
+| EfficientNetB4 Precision|    0.406      |0.047 | 0.163 |   0.971   |       0         |        0.02      |     -    |   -      |
 | EfficientNetB4 Recall   |               |      |       |           |                 |                  |     -    |   -      |
 
 **Общая структура проекта**  
