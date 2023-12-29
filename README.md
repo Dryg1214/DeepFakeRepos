@@ -72,14 +72,14 @@ https://github.com/ondyari/FaceForensics
 
 Таблица результатов моделей:
 
-| Модель                | FaceForensics | ROOP | GHOST | XceptionNet | MesoNet | EfficientNetB4 | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
-|-----------------------|---------------|------|-------|-------------|---------|-----------------|-----------|-----------------|------------------|----------|----------|
-| XceptionNet Precision  |               |      |       |             |         |                 |           |                 |                  |          |          |
-| XceptionNet Recall     |               |      |       |             |         |                 |           |                 |                  |          |          |
-| MesoNet Precision      |               |      |       |             |         |                 |           |                 |                  |   0.96   |   0.96   |
-| MesoNet Recall         |               |      |       |             |         |                 |           |                 |                  |   0.97   |   0.94   |
-| EfficientNetB4 Precision|               |      |       |             |         |                 |           |                 |                  |          |   -      |
-| EfficientNetB4 Recall   |               |      |       |             |         |                 |           |                 |                  |          |   -      |
+| Модель                | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
+|-----------------------|---------------|------|-------|-----------|-----------------|------------------|----------|----------|
+| XceptionNet Precision  |               |      |       |           |                 |                  |          |          |
+| XceptionNet Recall     |               |      |       |           |                 |                  |          |          |
+| MesoNet Precision      |      0.04     | 0.05 |  0.07 |    0.96   |         0       |         0        |   0.96   |   0.96   |
+| MesoNet Recall         |       1       |   1  |   1   |    0.97   |         0       |         0        |   0.97   |   0.94   |
+| EfficientNetB4 Precision|               |      |       |           |                 |                  |     -    |   -      |
+| EfficientNetB4 Recall   |               |      |       |           |                 |                  |     -    |   -      |
 
 **Общая структура проекта**  
 
