@@ -98,6 +98,6 @@ https://github.com/ondyari/FaceForensics
 
 [AllModels](AllModels) - Все модели, используемые в проекте, содержит в себе две подпапки для Генеративных и Детектирующих моделей
 - [ModelGenerate](AllModels/ModelGenerate) - Папка со всеми генеративными моделями
-- [DeepFakeDetectionModels](AllModels/DeepFakeDetectionModels)
+- [DeepFakeDetectionModels](AllModels/DeepFakeDetectionModels) - Папка со всеми детектирующими моделями
 
 
