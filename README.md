@@ -72,15 +72,14 @@ https://github.com/ondyari/FaceForensics
 
 Таблица результатов моделей:
 
-| Модель          | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute |
-|-----------------|---------------|------|-------|-----------|-----------------|------------------|
-| XceptionNet Precision|               |      |       |           |                 |                  |
-| XceptionNet Recall   |               |      |       |           |                 |                  |
-| MesoNet Precision|               |      |       |           |                 |                  |
-| MesoNet Recall   |               |      |       |           |                 |                  |
-| EfficientNetB4 Precision|               |      |       |           |                 |                  |
-| EfficientNetB4 Recall   |               |      |       |           |                 |                  |
-
+| Модель                | FaceForensics | ROOP | GHOST | XceptionNet | MesoNet | EfficientNetB4 | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
+|-----------------------|---------------|------|-------|-------------|---------|-----------------|-----------|-----------------|------------------|----------|----------|
+| XceptionNet Precision  |               |      |       |             |         |                 |           |                 |                  |          |          |
+| XceptionNet Recall     |               |      |       |             |         |                 |           |                 |                  |          |          |
+| MesoNet Precision      |               |      |       |             |         |                 |           |                 |                  |          |          |
+| MesoNet Recall         |               |      |       |             |         |                 |           |                 |                  |          |          |
+| EfficientNetB4 Precision|               |      |       |             |         |                 |           |                 |                  |          |          |
+| EfficientNetB4 Recall   |               |      |       |             |         |                 |           |                 |                  |          |          |
 
 **Общая структура проекта**  
 
