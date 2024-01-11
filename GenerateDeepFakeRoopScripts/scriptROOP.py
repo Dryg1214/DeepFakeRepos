@@ -16,7 +16,7 @@ def process_files(input_folder, destination_folder, output_folder):
         # Составляем полные пути к входному и выходному файлам
         input_source = os.path.join(input_folder, input_file)
         destination_path = os.path.join(destination_folder, destination_file)
-        output_path = os.path.join(output_folder, input_file.replace(".jpg", "_processed.jpg"))
+        output_path = os.path.join(output_folder, input_file.replace(".jpg", f"processed_dest{destination_file}.jpg"))
 
         # Ваш код обработки файлов, например, вызов команды из строки
         #command = f"python run.py -s {input_source} -t dis.jpg -o {output_path} --keep-frames --keep-fps --temp-frame-quality 1 --output-video-quality 1 --execution-provider cuda --frame-processor face_swapper face_enhancer"
@@ -25,7 +25,7 @@ def process_files(input_folder, destination_folder, output_folder):
 
         command = [
             'C:/Users/Dungeon Master/.conda/envs/generate_deepfake/python.exe',
-            'F:/DeepFake/roop/run.py',
+            'F:/DeepFakeRepos/AllModels/ModelGenerate/roop/run.py',
             '-s', input_source,
             '-t', destination_path,
             '-o', output_path,
