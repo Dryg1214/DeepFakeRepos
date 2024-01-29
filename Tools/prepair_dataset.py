@@ -47,7 +47,7 @@ def delete_low_resolution_images(folder_path, min_resolution):
 
 
 def delete_low_resolution_images_recursive(root_directory, min_resolution):
-     for root, root_folders, _ in os.walk(root_directory):
+    for root, root_folders, _ in os.walk(root_directory):
         for root_folder in root_folders:
             folder_path = os.path.join(root, root_folder)
             delete_low_resolution_images(folder_path, min_resolution)
