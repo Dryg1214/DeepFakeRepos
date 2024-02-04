@@ -84,10 +84,10 @@ https://github.com/ondyari/FaceForensics
 | MesoNet Precision REAL     |      0.50     |   0.50   |  0.51    |        0.49     |         0.49     |   0.96   |
 | MesoNet Recall REAL        |      0.97     |   0.97   |  0.97    |        0.96     |         0.96     |   0.97   |
 |----------------------------|---------------|----------|----------|-----------------|------------------|----------|
-| EfficientNetB4 Precision FAKE|    0.406    |  0.047   |  0.163   |        0.82     |        0.65      |   0.88   |
-| EfficientNetB4 Recall FAKE   |     0.91    |   0.85   |  0.78    |        0.88     |        0.92      |   0.89   |
-| EfficientNetB4 Precision REAL|    0.86     |   0.92   |  0.94    |        0.79     |        0.81      |   0.87   |
-| EfficientNetB4 Recall REAL   |     0.92    |   0.88   |  0.91    |        0.94     |        0.92      |   0.93   |
+| EfficientNetB4 Precision FAKE|    0.932    |   0.75   |   0.85   |        0        |        0.25      |    -     |
+| EfficientNetB4 Recall FAKE   |    0.406    |   0.09   |   0.17   |        0        |        0.02      |    -     |
+| EfficientNetB4 Precision REAL|    0.610    |  0.508   |  0.531   |       0.653     |       0.657      |    -     |
+| EfficientNetB4 Recall REAL   |    0.969    |  0.969   |  0.969   |       0.969     |       0.969      |    -     |
 
 **Общая структура проекта**  
 
