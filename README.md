@@ -64,22 +64,47 @@ https://github.com/ondyari/FaceForensics
 
 В названии файла будет указан тип данных (fake or real), название генерационной модели, а также используемый датасет.  
 
-Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet) 
- 
-Предсказания для модели MesoNet находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
+**Предсказания для модели XceptionNet** находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet)  
+В итоговых файлах, в конце каждой строки есть два показателя  
+Первый (с левой стороны) - Вероятность, что данное изображение реальное -> 1  
+Второй (с правой стороны) - Вероятность, что изображение фейк -> 1  
+label_class = 0 - значит, что изображение определенно как реальное  
+label_class = 1 - фейк
 
-Предсказания для модели EfficientNetB4 находятся в [EfficientNetB4Predict](https://github.com/Dryg1214/DeepFakeRepos/tree/main/AllModels/DeepFakeDetectionModels/EfficientNetB4%20%2B%20EfficientNetB4ST%20%2B%20B4Att%20%2B%20B4AttST)
+**Предсказания для модели MesoNet** находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
+В конце каждой строки есть один показатель - Вероятность, что изображение реальное  
+Тоесть, если показатель > 0.5 и близится к 1, то это реальное изображение. 
+
+**Предсказания для модели EfficientNetB4** находятся в [EfficientNetB4Predict](https://github.com/Dryg1214/DeepFakeRepos/tree/main/AllModels/DeepFakeDetectionModels/EfficientNetB4%20%2B%20EfficientNetB4ST%20%2B%20B4Att%20%2B%20B4AttST)  
+label - вероятность, что изображение фейк.  
+Показатель -> 1 значит фейк  
+Class 0 - REAL, Class 1 - FAKE
+
+Для выявления качества детектирования моделей использовались метрики Recall и Precision.  
+**Recall** демонстрирует способность алгоритма обнаруживать данный класс в целом  
+**Precision** — способность отличать этот класс от других классов.  
+**Качество модели можно определить по 4 показателям:**   
+**Precision FAKE/REAL и Recall FAKE/REAL**  
+**В совокупности все 4 показателя, близкие к 1, являются показателем высокого качества детектирующей модели.**
 
 Таблица результатов моделей:
 
-| Модель                | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
-|-----------------------|---------------|------|-------|-----------|-----------------|------------------|----------|----------|
-| XceptionNet Precision  |       0       |  0  | 0.024 |      1    |        0        |         0         |  0.995   |  0.925   |
-| XceptionNet Recall     |               |      |       |           |                 |                  |          |          |
-| MesoNet Precision      |      0.04     | 0.05 |  0.07 |    0.96   |         0       |         0        |   0.96   |   0.96   |
-| MesoNet Recall         |       1       |   1  |   1   |    0.97   |         0       |         0        |   0.97   |   0.94   |
-| EfficientNetB4 Precision|    0.406      |0.047 | 0.163 |   0.971   |       0         |        0.02      |     -    |   -      |
-| EfficientNetB4 Recall   |               |      |       |           |                 |                  |     -    |   -      |
+| Модель                     | FaceForensics |   ROOP   |  GHOST   | SmileAttribute  | OldAgeAttribute  | BaseData |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| XceptionNet Precision FAKE |        0      |     0    |     1    |        0        |          0       |  0.994   |
+| XceptionNet Recall FAKE    |        0      |     0    |   0.02   |        0        |          0       |  0.925   |
+| XceptionNet Precision REAL |     0.487     |   0.487  |  0.492   |      0.4949     |        0.4949    |  0.929   |
+| XceptionNet Recall REAL    |        1      |     1    |     1    |        1        |          1       |  0.995   |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| MesoNet Precision FAKE     |      0.57     |   0.50   |  0.67    |        0        |         0        |  0.96    |
+| MesoNet Recall FAKE        |      0.04     |   0.03   |  0.06    |        0        |         0        |  0.94    |
+| MesoNet Precision REAL     |      0.50     |   0.50   |  0.51    |        0.49     |         0.49     |   0.96   |
+| MesoNet Recall REAL        |      0.97     |   0.97   |  0.97    |        0.96     |         0.96     |   0.97   |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| EfficientNetB4 Precision FAKE|    0.932    |   0.75   |   0.85   |        0        |        0.25      |    -     |
+| EfficientNetB4 Recall FAKE   |    0.406    |   0.09   |   0.17   |        0        |        0.02      |    -     |
+| EfficientNetB4 Precision REAL|    0.610    |  0.508   |  0.531   |       0.653     |       0.657      |    -     |
+| EfficientNetB4 Recall REAL   |    0.969    |  0.969   |  0.969   |       0.969     |       0.969      |    -     |
 
 **Общая структура проекта**  
 
