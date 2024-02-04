@@ -10,8 +10,8 @@ def process_files(input_folder, destination_folder, output_folder):
     dis_files = [f for f in os.listdir(destination_folder) if os.path.isfile(os.path.join(destination_folder, f))]
 
     # Перемешиваем список файлов случайным образом
-    random.shuffle(input_files)
-    random.shuffle(dis_files)
+    #random.shuffle(input_files)
+    #random.shuffle(dis_files)
 
     num_destinations = len(dis_files)
     num_d = 0
@@ -23,6 +23,7 @@ def process_files(input_folder, destination_folder, output_folder):
         input_source = os.path.join(input_folder, input_file)
         destination_path = os.path.join(destination_folder, destination_file)
         output_path = os.path.join(output_folder, input_file.replace(".jpg", f"processed_dest{destination_file}.jpg"))
+        #output_path = os.path.join(output_folder, input_file.replace(".png", f"processed_dest{destination_file}.png"))
 
         # Ваш код обработки файлов, например, вызов команды из строки
         #command = f"python run.py -s {input_source} -t dis.jpg -o {output_path} --keep-frames --keep-fps --temp-frame-quality 1 --output-video-quality 1 --execution-provider cuda --frame-processor face_swapper face_enhancer"
