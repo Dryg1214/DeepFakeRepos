@@ -64,28 +64,28 @@ https://github.com/ondyari/FaceForensics
 
 В названии файла будет указан тип данных (fake or real), название генерационной модели, а также используемый датасет.  
 
-Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet)  
+**Предсказания для модели XceptionNet** находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet)  
 В итоговых файлах, в конце каждой строки есть два показателя  
 Первый (с левой стороны) - Вероятность, что данное изображение реальное  
 Второй (с правой стороны) - Вероятность, что изображение фейк   
 label_class = 0 - значит, что изображение определенно как реальное  
 label_class = 1 - фейк
 
-Предсказания для модели MesoNet находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
-В конце каждой строки есть один показатель - Вероятность, что изображение реальное
+**Предсказания для модели MesoNet** находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
+В конце каждой строки есть один показатель - Вероятность, что изображение реальное  
 Тоесть, если показатель > 0.5 и близится к 1, то это реальное изображение. 
 
-Предсказания для модели EfficientNetB4 находятся в [EfficientNetB4Predict](https://github.com/Dryg1214/DeepFakeRepos/tree/main/AllModels/DeepFakeDetectionModels/EfficientNetB4%20%2B%20EfficientNetB4ST%20%2B%20B4Att%20%2B%20B4AttST)
-label - вероятность, что изображение фейк. 
-Показатель -> 1 значит фейк
+**Предсказания для модели EfficientNetB4** находятся в [EfficientNetB4Predict](https://github.com/Dryg1214/DeepFakeRepos/tree/main/AllModels/DeepFakeDetectionModels/EfficientNetB4%20%2B%20EfficientNetB4ST%20%2B%20B4Att%20%2B%20B4AttST)  
+label - вероятность, что изображение фейк.  
+Показатель -> 1 значит фейк  
 Class 0 - REAL, Class 1 - FAKE
 
 Для выявления качества детектирования моделей использовались метрики Recall и Precision.
-Recall демонстрирует способность алгоритма обнаруживать данный класс в целом
-Precision — способность отличать этот класс от других классов.
-Качество модели можно обределить по 4 показателям: 
-Precision FAKE/REAL и Recall FAKE/REAL
-В совокупности все 4 показателя, близкие к 1, являются показателем высокого качества детектирующей модели.
+**Recall** демонстрирует способность алгоритма обнаруживать данный класс в целом
+**Precision** — способность отличать этот класс от других классов.
+**Качество модели можно обределить по 4 показателям:** 
+**Precision FAKE/REAL и Recall FAKE/REAL**
+**В совокупности все 4 показателя, близкие к 1, являются показателем высокого качества детектирующей модели.**
 
 Таблица результатов моделей:
 
