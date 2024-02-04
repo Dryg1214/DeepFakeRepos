@@ -72,14 +72,22 @@ https://github.com/ondyari/FaceForensics
 
 Таблица результатов моделей:
 
-| Модель                | FaceForensics | ROOP | GHOST | RealImage | SmileAttribute | OldAgeAttribute | BaseReal | BaseFake |
-|-----------------------|---------------|------|-------|-----------|-----------------|------------------|----------|----------|
-| XceptionNet Precision  |       0       |  0  | 0.024 |      1    |        0        |         0         |  0.995   |  0.925   |
-| XceptionNet Recall     |               |      |       |           |                 |                  |          |          |
-| MesoNet Precision      |      0.04     | 0.05 |  0.07 |    0.96   |         0       |         0        |   0.96   |   0.96   |
-| MesoNet Recall         |       1       |   1  |   1   |    0.97   |         0       |         0        |   0.97   |   0.94   |
-| EfficientNetB4 Precision|    0.406      |0.047 | 0.163 |   0.971   |       0         |        0.02      |     -    |   -      |
-| EfficientNetB4 Recall   |               |      |       |           |                 |                  |     -    |   -      |
+| Модель                     | FaceForensics |   ROOP   |  GHOST   | SmileAttribute  | OldAgeAttribute  | BaseData |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| XceptionNet Precision FAKE |        0      |     0    |     1    |        0        |          0       |  0.994   |
+| XceptionNet Recall FAKE    |        0      |     0    |   0.02   |        0        |          0       |  0.925   |
+| XceptionNet Precision REAL |     0.487     |   0.487  |  0.492   |      0.4949     |        0.4949    |  0.929   |
+| XceptionNet Recall REAL    |        1      |     1    |     1    |        1        |          1       |  0.995   |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| MesoNet Precision FAKE     |      0.57     |   0.50   |  0.67    |        0        |         0        |  0.96    |
+| MesoNet Recall FAKE        |      0.04     |   0.03   |  0.06    |        0        |         0        |  0.94    |
+| MesoNet Precision REAL     |      0.50     |   0.50   |  0.51    |        0.49     |         0.49     |   0.96   |
+| MesoNet Recall REAL        |      0.97     |   0.97   |  0.97    |        0.96     |         0.96     |   0.97   |
+|----------------------------|---------------|----------|----------|-----------------|------------------|----------|
+| EfficientNetB4 Precision FAKE|    0.406    |  0.047   |  0.163   |        0.82     |        0.65      |   0.88   |
+| EfficientNetB4 Recall FAKE   |     0.91    |   0.85   |  0.78    |        0.88     |        0.92      |   0.89   |
+| EfficientNetB4 Precision REAL|    0.86     |   0.92   |  0.94    |        0.79     |        0.81      |   0.87   |
+| EfficientNetB4 Recall REAL   |     0.92    |   0.88   |  0.91    |        0.94     |        0.92      |   0.93   |
 
 **Общая структура проекта**  
 
