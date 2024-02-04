@@ -64,11 +64,11 @@ https://github.com/ondyari/FaceForensics
 
 В названии файла будет указан тип данных (fake or real), название генерационной модели, а также используемый датасет.  
 
-Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet) 
-В итоговых файлах, в конце каждой строки есть два показателя
-Первый (с левой стороны) - Вероятность, что данное изображение реальное
-Второй (с правой стороны) - Вероятность, что изображение фейк 
-label_class = 0 - значит, что изображение определенно как реальное
+Предсказания для модели XceptionNet находятся в [XceptionPredict](AllModels/DeepFakeDetectionModels/XceptionNet)  
+В итоговых файлах, в конце каждой строки есть два показателя  
+Первый (с левой стороны) - Вероятность, что данное изображение реальное  
+Второй (с правой стороны) - Вероятность, что изображение фейк   
+label_class = 0 - значит, что изображение определенно как реальное  
 label_class = 1 - фейк
 
 Предсказания для модели MesoNet находятся в [MesoNetPredict](AllModels/DeepFakeDetectionModels/MesoNet-DeepFakeDetection/notebook)  
