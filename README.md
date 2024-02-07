@@ -87,7 +87,7 @@ Class 0 - REAL, Class 1 - FAKE
 **Precision FAKE/REAL и Recall FAKE/REAL**  
 
 $$Precision = TP \over (TP + FP)$$  
-$$Recall = TP \over (TP + FN)$$
+
 
 **В совокупности все 4 показателя, близкие к 1, являются показателем высокого качества детектирующей модели.**
 
