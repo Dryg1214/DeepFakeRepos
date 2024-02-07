@@ -86,7 +86,7 @@ Class 0 - REAL, Class 1 - FAKE
 **Качество модели можно определить по 4 показателям:**   
 **Precision FAKE/REAL и Recall FAKE/REAL**  
 
-$$Precision = TP \over (TP + FP)$$  
+$$Precision = {TP \over (TP + FP)}$$  
 
 
 **В совокупности все 4 показателя, близкие к 1, являются показателем высокого качества детектирующей модели.**
