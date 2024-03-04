@@ -1,1 +1,1 @@
- & "C:/Users/Dungeon Master/.conda/envs/generate_deepfake/python.exe" F:/DeepFakeRepos/GenerateDeepFakeRoopScripts/scriptROOP.py -i "F:/DeepFakeRepos/Datasets/source" -d "F:/DeepFakeRepos/Datasets/destination" -o "F:/DeepFakeRepos/Datasets/RoopData/fake"
+ & "C:/Apps/envs/MainFake/python.exe" D:/DeepFakeRepos/GenerateDeepFakeRoopScripts/scriptROOP.py -i "D:/DeepFakeRepos/Datasets/source" -d "D:/DeepFakeRepos/Datasets/destination" -o "D:/DeepFakeRepos/Datasets/RoopData/fake"

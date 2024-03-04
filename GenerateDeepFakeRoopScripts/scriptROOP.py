@@ -2,6 +2,7 @@ import argparse
 import os
 import subprocess
 import random
+import ffmpeg
 
 def process_files(input_folder, destination_folder, output_folder):
     # Получаем список файлов в папке input_folder
@@ -15,7 +16,7 @@ def process_files(input_folder, destination_folder, output_folder):
 
     num_destinations = len(dis_files)
     num_d = 0
-    for input_file in input_files:
+    for input_file in input_files: 
         if num_d >= num_destinations:
             return 
         destination_file = dis_files[num_d]
@@ -31,8 +32,8 @@ def process_files(input_folder, destination_folder, output_folder):
         num_d = num_d + 1
 
         command = [
-            'C:/Users/Dungeon Master/.conda/envs/generate_deepfake/python.exe',
-            'F:/DeepFakeRepos/AllModels/ModelGenerate/roop/run.py',
+            'C:/Apps/envs/MainFake/python.exe',
+            'D:/DeepFakeRepos/AllModels/ModelGenerate/roop/run.py',
             '-s', input_source,
             '-t', destination_path,
             '-o', output_path,

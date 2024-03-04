@@ -1,7 +1,7 @@
 import imutils
 import cv2
 import numpy as np
-
+from PIL import Image
 
 
 #reshape с сохранением пропорций картинки
@@ -9,6 +9,17 @@ def reshape_save_proporshions(file_path, file_path_save, width = 256, height = 2
     img = cv2.imread(file_path)
     img = imutils.resize(img, width, height)
     cv2.imwrite(file_path_save, img)
+
+
+def resize_image_save_proporshions(input_path, output_path, target_size):
+    # Открываем изображение
+    original_image = Image.open(input_path)
+
+    # Изменяем размер с сохранением пропорций
+    original_image.thumbnail(target_size)
+
+    # Сохраняем измененное изображение
+    original_image.save(output_path)
 
 
 def resize_hard_image(file_path, file_path_save, size=(256,256)):
@@ -57,7 +68,17 @@ def cut_n_image_from_image(file_path, filepath_save, name):
 file_path = "ReshapeImage\\input_image\\tones.png"
 file_path_save = "ReshapeImage\\output_image"
 
-cut_n_image_from_image(file_path, file_path_save, "tone")
+# Пример использования
+input_image_path = 'F:\\DataBaseImage\\ffhq\\00868.png'
+output_image_path = '00868_process_3IMU.png'
+target_size = (2048, 2048)
+
+#resize_image_save_proporshions(input_image_path, output_image_path, target_size)
+#resize_hard_image(input_image_path, output_image_path, target_size)
+reshape_save_proporshions(input_image_path, output_image_path, 2048, 2048)
+
+
+#cut_n_image_from_image(file_path, file_path_save, "tone")
 
 
 #cv2.imshow('image' , img)
