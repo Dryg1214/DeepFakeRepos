@@ -95,9 +95,9 @@ $$Recall = {TP \over (TP + FN)}$$
 |  Situashion  |  Fake         | Real          |
 | -------------|---------------|---------------|
 | Fake as Fake |  TP           |  TN           |
-| Fake as Real |  FN           |  FP           |
+| Fake as Real |  FP           |  FN           |
 | Real as Real |  TN           |  TP           |
-| Real as Fake |  FP           |  FN           |
+| Real as Fake |  FN           |  FP           |
 
 
 
