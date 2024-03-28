@@ -1,1 +1,1 @@
- & "C:/Apps/envs/MainFake/python.exe" D:/DeepFakeRepos/GenerateDeepFakeRoopScripts/scriptROOP.py -i "E:\\source" -d "E:\\destinashion" -o "E:\\roop\\forged"
+ & "C:/Apps/envs/MainFake/python.exe" D:/DeepFakeRepos/GenerateDeepFakeRoopScripts/scriptROOP.py -i "C:\\DatasetD\\SourceNew" -d "C:\\DatasetD\\DestinashionNew" -o "C:\\DatasetD\\RoopNew"

@@ -77,8 +77,8 @@ def cut_n_image_root(root_directory, filepath_save):
         cut_n_image_from_image(file_path, filepath_save, filename)
 
 
-file_path_dir = "E:\\Encoder4EditingNOCUT\\E4E\\fake"
-file_path_save = "E:\\e4e\\fake"
+file_path_dir = "C:\\DatasetD\\E4ENew"
+file_path_save = "C:\\DatasetD\\E4ECUT"
 
 # Пример использования
 #input_image_path = 'F:\\DataBaseImage\\ffhq\\00868.png'
