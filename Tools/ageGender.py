@@ -47,44 +47,49 @@ def resize_and_crop_image(img, target_size, face_coordinates):
     return img
 
 
-data = AgeAndGender()
 
-modelsPath = "UbuntuParts/AgeGenderDetector/example/models/"
-
-data.load_shape_predictor(f'{modelsPath}shape_predictor_5_face_landmarks.dat')
-data.load_dnn_gender_classifier(f'{modelsPath}dnn_gender_classifier_v1.dat')
-data.load_dnn_age_predictor(f'{modelsPath}dnn_age_predictor_v1.dat')
 
 dataSetsPath = "/media/pavel/5B99-804C/Datasets/aboba.png"
 DATA_SAVE_PATH = "sfdfssdfs/"
 target_size = 1024
 directory_path = "dsdf"
 
+
+#Загружаем модель AgeAndGender
+data = AgeAndGender()
+modelsPath = "UbuntuParts/AgeGenderDetector/example/models/"
+data.load_shape_predictor(f'{modelsPath}shape_predictor_5_face_landmarks.dat')
+data.load_dnn_gender_classifier(f'{modelsPath}dnn_gender_classifier_v1.dat')
+data.load_dnn_age_predictor(f'{modelsPath}dnn_age_predictor_v1.dat')
+
 for filename in os.listdir(directory_path):
     file_path = os.path.join(directory_path, filename)
     if not is_valid_image(file_path):
         os.remove(file_path)
-        print(f"Deleted invalid JPG file: {file_path}")
-    
+        print(f"Deleted invalid image file: {file_path}")
     try:
         image = Image.open(file_path)
         result = data.predict(image)
         object_count = len(result)
-        # Проверяем, если объект только один, получаем age и gender
+        # Проверяем, если объект только один, то получаем возраст и центральные координаты лица
         if object_count == 1:
             age = result[0]['age']['value']
-            gender = result[0]['gender']['value']
             face = result[0]['face']['value']
-            print(f"Возраст: {age}, Пол: {gender}")
+            # Если возраст человека меньше 18 лет, удаляем изображение
             if age < 18:
                 os.remove(file_path)
                 print(f"Deleted img with age < 18: {file_path}")
                 continue
+            # Изменение размера и обрезка изображения до размера target_size
             save_image = resize_and_crop_image(image, target_size, face)
             save_image.save(f'{DATA_SAVE_PATH}/f{filename}')
+        # Если объектов несколько (группы лиц), то удаляем изображение.
         else:
             os.remove(file_path)
             print(f"Deleted img with any Faces: {file_path}")
     except Exception as e:
         print(f"Error processing image {file_path}: {e}")
         os.remove(file_path)
+        
+        
+         

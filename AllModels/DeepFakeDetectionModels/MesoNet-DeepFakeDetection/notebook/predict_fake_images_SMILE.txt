@@ -1,7 +1,7 @@
-fake\result_10.jpg2.jpg 0.99640036
-fake\result_102.jpg2.jpg 0.9978212
+fake\result_10.jpg2.jpg 0.99638677
+fake\result_102.jpg2.jpg 0.99781513
 fake\result_122.jpg2.jpg 1.0
-fake\result_131.jpg2.jpg 0.99982977
+fake\result_131.jpg2.jpg 0.99982893
 fake\result_141.jpg2.jpg 1.0
 fake\result_146.jpg2.jpg 0.99999976
 fake\result_169.jpg2.jpg 1.0
@@ -10,16 +10,16 @@ fake\result_186 (2).jpg2.jpg 1.0
 fake\result_210.jpg2.jpg 0.99999976
 fake\result_216.jpg2.jpg 0.999972
 fake\result_240.jpg2.jpg 0.9999999
-fake\result_264.jpg2.jpg 0.99845874
-fake\result_275.jpg2.jpg 0.9990489
+fake\result_264.jpg2.jpg 0.9984571
+fake\result_275.jpg2.jpg 0.99904805
 fake\result_276.jpg2.jpg 0.9999994
-fake\result_285.jpg2.jpg 0.9903195
-fake\result_309.jpg2.jpg 0.9999945
-fake\result_31.jpg2.jpg 0.9518654
+fake\result_285.jpg2.jpg 0.9902852
+fake\result_309.jpg2.jpg 0.9999944
+fake\result_31.jpg2.jpg 0.95185536
 fake\result_325.jpg2.jpg 0.9999949
-fake\result_334.jpg2.jpg 0.99177086
-fake\result_34.jpg2.jpg 0.9999473
-fake\result_371.jpg2.jpg 0.99995375
+fake\result_334.jpg2.jpg 0.9917595
+fake\result_34.jpg2.jpg 0.9999471
+fake\result_371.jpg2.jpg 0.9999536
 fake\result_384.jpg2.jpg 0.9999707
 fake\result_42.jpg2.jpg 0.99937075
 fake\result_427.jpg2.jpg 1.0
@@ -30,21 +30,71 @@ fake\result_460.jpg2.jpg 1.0
 fake\result_463.jpg2.jpg 1.0
 fake\result_471.jpg2.jpg 1.0
 fake\result_499.jpg2.jpg 0.99999833
-fake\result_5.jpg2.jpg 0.99996495
+fake\result_5.jpg2.jpg 0.99996483
 fake\result_504.jpg2.jpg 0.9999982
 fake\result_555.jpg2.jpg 0.9999974
-fake\result_569.jpg2.jpg 0.9950159
+fake\result_569.jpg2.jpg 0.9950112
 fake\result_596.jpg2.jpg 1.0
 fake\result_6.jpg2.jpg 0.99999976
-fake\result_604.jpg2.jpg 0.9983858
+fake\result_604.jpg2.jpg 0.9983827
 fake\result_648.jpg2.jpg 0.99999464
 fake\result_67.jpg2.jpg 1.0
 fake\result_7 (2).jpg2.jpg 1.0
 fake\result_7.jpg2.jpg 0.9999989
-fake\result_703.jpg2.jpg 0.9994148
+fake\result_703.jpg2.jpg 0.9994122
 fake\result_71.jpg2.jpg 0.9999882
 fake\result_717.jpg2.jpg 1.0
-fake\result_73.jpg2.jpg 0.99925786
-fake\result_768.jpg2.jpg 0.99294996
-fake\result_788.jpg2.jpg 0.9997149
-fake\result_85.jpg2.jpg 0.9998429
+fake\result_73.jpg2.jpg 0.9992514
+fake\result_768.jpg2.jpg 0.99293715
+fake\result_788.jpg2.jpg 0.9997143
+fake\result_85.jpg2.jpg 0.9998425
+real\131.jpg 0.99939466
+real\161.jpg 0.99999964
+real\194.jpg 0.999092
+real\223.jpg 1.0
+real\25 (2).jpg 0.9999999
+real\25.jpg 0.918185
+real\399.jpg 0.99636734
+real\405.jpg 1.0
+real\460.jpg 0.7089217
+real\479.jpg 1.0
+real\499 (2).jpg 1.0
+real\499.jpg 0.99999976
+real\502.jpg 0.9999994
+real\504 (2).jpg 0.9831697
+real\504.jpg 0.46725726
+real\513.jpg 0.9999993
+real\516.jpg 0.98401535
+real\524 (2).jpg 0.99809223
+real\524.jpg 0.8603216
+real\525.jpg 1.0
+real\556.jpg 0.751811
+real\577.jpg 1.0
+real\584.jpg 0.99996376
+real\590.jpg 0.9999974
+real\591.jpg 0.1546195
+real\596.jpg 0.99980634
+real\613.jpg 1.0
+real\635.jpg 0.99999964
+real\640.jpg 0.9999473
+real\648.jpg 0.9999988
+real\670.jpg 0.9999746
+real\680.jpg 0.99999976
+real\696.jpg 1.0
+real\701.jpg 0.9979372
+real\706.jpg 0.9992768
+real\719.jpg 0.9999999
+real\728.jpg 1.0
+real\73 (2).jpg 0.821436
+real\73.jpg 0.9999956
+real\743.jpg 0.90387696
+real\747.jpg 0.9999981
+real\749 (2).jpg 1.0
+real\749.jpg 0.9999932
+real\788.jpg 0.7556002
+real\795 (2).jpg 0.9999993
+real\795 (3).jpg 1.0
+real\795.jpg 0.99451953
+real\796.jpg 0.9999863
+real\797.jpg 0.9999728
+real\800.jpg 0.9999989
